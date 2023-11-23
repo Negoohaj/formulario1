@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Segurança Cibernética</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário de Pesquisa - Medidas de Segurança Cibernética</h2>
+        <form action="process_form.php" method="post">
+            <!-- Cada opção é representada por um checkbox -->
+            <label for="firewall">Firewall:</label>
+            <input type="checkbox" name="firewall" value="Firewall">
+
+            <label for="antivirus">Antivírus:</label>
+            <input type="checkbox" name="antivirus" value="Antivírus">
+
+            <label for="atualizacoes">Atualizações de Software:</label>
+            <input type="checkbox" name="atualizacoes" value="Atualizações de Software">
+
+            <label for="backup">Backup Regular:</label>
+            <input type="checkbox" name="backup" value="Backup Regular">
+
+            <label for="conscientizacao">Conscientização do Usuário:</label>
+            <input type="checkbox" name="conscientizacao" value="Conscientização do Usuário">
+
+            <!-- Botão de envio do formulário -->
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
